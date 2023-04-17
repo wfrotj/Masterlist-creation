@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em auto;
+  background-color: black;
+  width: 95vw;
+  height: 50vh;
+}
+.pupil {
+  background-color: blue;
+  margin: 1em auto;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
